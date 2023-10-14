@@ -8,7 +8,7 @@ const app = express();
 const port = 4000;
 
 
-mongoose.connect("mongodb://localhost/notesdb");
+mongoose.connect("mongodb+srv://aniketmaj21:sEMT0GK4S10bGu82@reacttodonotes.cvhwdoy.mongodb.net/?retryWrites=true&w=majority");
 
 const noteSchema = new mongoose.Schema({
     title: String, 
